@@ -66,6 +66,10 @@ body {
     padding: 0;
     text-align: center;
    }
+
+   .home-hero {
+    padding: 160px 20px;
+}
 }
 
 @media (min-width: 900px) {
