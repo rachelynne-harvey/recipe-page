@@ -72,6 +72,33 @@ body {
     padding-top: 100px;
 }
 
+.body-button {
+    display: block;
+    justify-content: center;
+    background: var(--second-font-color);
+    padding: 10px 15px;
+    line-height: 27px;
+    color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.body-button:hover {
+    background: var(--secondary-color);
+    color: var(--second-font-color);
+}
+
+.about-section-bio h1 {
+    font-size: 40px;
+}
+
+.about-section-bio h2 {
+    font-size: 20px;    
+}
+
+.about-section-bio p {
+    font-size: 10px;
+}
+
 @media (max-width: 500px) {
    .recipe-description {
     padding: 0;
@@ -90,17 +117,4 @@ body {
    }
 }
 
-.body-button {
-    display: block;
-    justify-content: center;
-    background: var(--second-font-color);
-    padding: 10px 15px;
-    line-height: 27px;
-    color: var(--secondary-color);
-    border-radius: 10px;
-}
 
-.body-button:hover {
-    background: var(--secondary-color);
-    color: var(--second-font-color);
-}
