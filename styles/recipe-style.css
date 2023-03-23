@@ -12,8 +12,6 @@ div {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     font-family: var(--heading-font-family);
     font-weight: 800;
     font-size: 80px;
@@ -21,8 +19,6 @@ h1 {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 25px;   
@@ -30,8 +26,6 @@ h2 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
     font-family: var(--heading-font-family);
     font-weight: 400;
     font-style: italic;
@@ -40,8 +34,6 @@ h3 {
 }
 
 p {
-    display: flex;
-    justify-content: center;
     color: var(--main-font-color);
 }
 
