@@ -58,7 +58,7 @@ body {
     line-height: 27px;
     color: var(--second-font-color);
     border-radius: 10px;
-    max-width: 25%;
+    max-width: 40%;
 }
 
 .btn:hover {
@@ -85,7 +85,7 @@ body {
     line-height: 27px;
     color: var(--secondary-color);
     border-radius: 10px;
-    max-width: 25%;
+    max-width: 40%;
 }
 
 .body-button:hover {
@@ -93,25 +93,25 @@ body {
     color: var(--second-font-color);
 }
 
-.about-section img {
+.content-container img {
     display: block;
     justify-content: center;
 }
 
-.about-section-bio h1 {
+.content h1 {
     font-size: 40px;
     text-align: center;
 }
 
-.about-section-bio h2 {
+.content h2 {
     font-size: 20px;    
 }
 
-.about-section-bio p {
+.content p {
     font-size: 10px;
 }
 
-.about-section-bio a {
+.content a {
     max-width: 50%;
 }
 
