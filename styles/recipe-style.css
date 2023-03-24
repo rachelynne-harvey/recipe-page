@@ -107,6 +107,40 @@ body {
     max-width: 50%;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+    color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: var(--second-font-color);
+}
+
 @media (max-width: 500px) {
    .recipe-description {
     padding: 0;
