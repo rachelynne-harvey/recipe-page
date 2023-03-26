@@ -33,6 +33,11 @@ h3 {
     color: var(--main-font-color);
 }
 
+h4 {
+    font-family: var(--heading-font-family);
+    font-size: 32px;
+}
+
 p {
     color: var(--main-font-color);
 }
@@ -44,7 +49,7 @@ body {
 
 .btn {
     display: block;
-    justify-content: center;
+    text-align: center;
     background: var(--secondary-color);
     padding: 10px 15px;
     line-height: 27px;
@@ -66,7 +71,7 @@ body {
 }
 
 .recipe-description {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .body-button {
@@ -141,6 +146,50 @@ nav a:hover {
     color: var(--second-font-color);
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background-color: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .btn {
+    max-width: 100%;
+    padding: 15px 50px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+footer .email-link:hover {
+    color: var(--second-font-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--main-font-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--second-font-color);
+    
+}
+
 @media (max-width: 500px) {
    .recipe-description {
     padding: 0;
@@ -154,6 +203,15 @@ nav a:hover {
     .about-section {
     padding: 0;
     justify-content: center;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+    
+    .btn {
+        font-size: 18px;
+        justify-content: center;
     }
 }
 
