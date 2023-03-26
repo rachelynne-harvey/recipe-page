@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href="styles/recipe-style.css">
+    <link rel='stylesheet' href="/styles/recipe-style.css">
+    <meta name="description" content="Enjoy a Southern staple with these fluffy and buttery Buttermilk Biscuits. With just three simple ingredients and easy-to-follow instructions, this recipe is perfect for breakfast, brunch, or any time you're craving some classic comfort food.">
     <title>Buttermilk Biscuits</title>
 </head>
 <body>
@@ -16,21 +17,21 @@
     <div class="container">
         <nav class="d-flex justify-content-between">
             <a href="/index.html">
-                <img src="images/recipe-logo.png" class="logo d-none d-md-block" alt="" />
-                <img src="images/recipe-logo-small.png" class="logo d-block d-md-none" alt="" />
+                <img src="/images/recipe-logo.png" class="logo d-none d-md-block" alt="kitchenmagic-logo" />
+                <img src="/images/recipe-logo-small.png" class="logo d-block d-md-none" alt="kitchenmagic-logo-small" />
             </a>
             <ul>
                 <li>
-                    <a href="/index.html">home</a>
-                </li>
-                <li>
-                    <a href="/recipes.html">recipes</a>
+                    <a href="/index.html" title="homepage">home</a>
                 </li>
                 <li class="active">
-                    <a href="about.html">about</a>
+                    <a href="/recipes.html" title="recipe vault">recipes</a>
                 </li>
                 <li>
-                    <a href="/contact.html">contact</a>
+                    <a href="/about.html" title="about the butter fairy">about</a>
+                </li>
+                <li>
+                    <a href="/contact.html" title="contact the butter fairy">contact</a>
                 </li>
             </ul>
         </nav>
@@ -40,18 +41,26 @@
             <div class="col-lg-6">
                 <div class="content">
                     <h1 class="mt-5 mb-3">buttermilk biscuits</h1>
-                    <h2>good to finally meet you! i'm rahel, better known as the butter fairy.</h2>
-                    <p class="mt-3 mb-4">
-                       <ul>
-                        <li></li>
-                       </ul>
+                    <h2>ingredients</h2>
+                    <p class="mt-3">
+                        <ul>
+                            <li>1/2 cup cold butter or shortening</li>
+                            <li>2 1/2 cups white lily self-rising flour</li>
+                            <li>1 cup cold buttermilk</li>
+                        </ul>
+                        cut butter/shortening into flour until mixture resembles sand. mix in buttermilk until just combined.
+                        gently pat out dough on flour surfaced until desired thickness, envelope fold dough, and repeat.
+                        cut out as many biscuits as possible with a biscuit cutter or VERY sharp knife and bake in a cast iron skillet at 475° for 15 minutes.
+                        serve with salted butter, jam, and enjoy!
                     </p>
-                <a href="" class="float-lg-start btn mx-auto">check out my bakery 🍰</a>
+                
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/bio-image.jpg" alt="" class="img-fluid home-image rounded mx-auto mt-5 mb-5 float-lg-end float-xl-none">
+                <img src="/images/biscuit-grid.jpg" alt="buttermilk-biscuits-image" class="img-fluid home-image rounded mx-auto mt-3 mb-5 float-lg-end float-xl-none">
+                <img src="/images/biscuit-angle.jpg" alt="buttermilk-biscuits-image" class="img-fluid home-image rounded mx-auto mb-5 float-lg-end float-xl-none">
             </div>
+            <a href="/recipes.html" class="float-lg-start btn mx-auto">back to recipe vault 👩🏾‍🍳</a>
         </div>
         <footer>
                     <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
@@ -60,21 +69,25 @@
                             <p class="text-muted">let's make something together!</p>    
                         </div>
                         <div>
-                            <a href="/contact.html" class="btn mt-2">contact me</a>
+                            <a href="/contact.html" class="btn mt-2" title="contact">contact me</a>
                         </div>
                         
                     </div>
                     <div class="d-flex justify-content-center mb-3">
-                        <a href="mailto:thebutterfairybakes@gmail.com" class="email-link">thebutterfairybakes@gmail.com</a>
+                        <a href="mailto:thebutterfairybakes@gmail.com" class="email-link" target="_blank" title="e-mail me">thebutterfairybakes@gmail.com</a>
                     </div>
                     <div class="social-links d-flex justify-content-center">
-                        <a href="https://www.instagram.com/the.butterfairy">
+                        <a href="https://www.instagram.com/the.butterfairy" target="_blank" title="instagram profile">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="https://github.com/rachelynne-harvey">
+                        <a href="https://github.com/rachelynne-harvey" target="_blank" title="github profile">
                             <i class="fa-brands fa-github-alt"></i>
-                        </a> 
+                        </a>
+                        
                     </div>
+                    <p class="text-center mt-4">this project was coded by the butter fairy and it is
+                            <a href="https://github.com/rachelynne-harvey/recipe-page" target="_blank">open-sourced</a> ✨
+                        </p>
                 </footer>
     </div>
 </body>
